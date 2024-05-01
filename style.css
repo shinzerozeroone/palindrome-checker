@@ -1,0 +1,49 @@
+body {
+  background-color: rgb(11, 11, 57);
+  font-family: Georgia;
+}
+
+h1 {
+  font-size: 40px;
+  position: relative;
+  left: 40%;
+  margin-top: 250px;
+  display: inline-block;
+  color: white;
+}
+
+.container {
+  width: 500px;
+  min-height: 100px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  border-radius: 20px;
+  color: rgb(11, 11, 57);
+  text-align: center;
+}
+
+.container p {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+#text-input {
+  padding: 10px;
+  width: 300px;
+  margin-right: 40px;
+  border: none;
+  border-bottom: 2px solid rgb(54, 13, 91);
+}
+
+#check-btn {
+  width: 100px;
+  padding: 10px;
+  background-color: rgb(54, 13, 91);
+  color: white;
+  font-size: 15px;
+  border-radius: 30px;
+  border: none;
+}
