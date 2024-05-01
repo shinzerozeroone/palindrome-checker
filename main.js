@@ -9,11 +9,9 @@ submitButton.addEventListener("click", () => {
       palidrome.toLowerCase().replaceAll(" ", "") ==
       palidrome.split("").reverse().join("").toLowerCase().replaceAll(" ", "")
     ) {
-      result.innerText = "";
-      result.innerText += textInput.value + " is a palidrome";
+      result.innerText = `${textInput.value} is a palidrome`;
     } else {
-      result.innerText = "";
-      result.innerText += textInput.value + "  is not a palidrome";
+      result.innerText = `${textInput.value} is not a palidrome`;
     }
   } else {
     alert("Please input a value");
